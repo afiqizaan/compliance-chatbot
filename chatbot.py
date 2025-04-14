@@ -20,7 +20,7 @@ def find_answer(user_input):
 
 # --- Streamlit App ---
 st.set_page_config(page_title="Compliance Chatbot", page_icon="💬")
-st.title("\ud83d\udcac Compliance Chatbot")
+st.title("💬 Compliance Chatbot")
 st.write("Ask me about compliance policies, deadlines, and more.")
 
 user_question = st.text_input("Your question:")
