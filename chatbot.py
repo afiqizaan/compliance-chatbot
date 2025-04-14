@@ -19,7 +19,7 @@ def find_answer(user_input):
     return "I'm not sure about that. Please email compliance@yourcompany.com for help."
 
 # --- Streamlit App ---
-st.set_page_config(page_title="Compliance Chatbot", page_icon="\ud83d\udcac")
+st.set_page_config(page_title="Compliance Chatbot", page_icon="💬")
 st.title("\ud83d\udcac Compliance Chatbot")
 st.write("Ask me about compliance policies, deadlines, and more.")
 
